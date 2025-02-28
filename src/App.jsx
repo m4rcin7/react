@@ -53,7 +53,6 @@ function App() {
     setEditorContent(defaultMarkdown);
   }, [defaultMarkdown]);
 
-  // Update the preview as the editor content changes
   const handleEditorChange = (event) => {
     setEditorContent(event.target.value);
   };
